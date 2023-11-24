@@ -12,7 +12,7 @@ The GPS Geoprocessing Service is a robust .NET Core application tailored for adv
 The functionality of this service ensures that rail wagons are accurately tracked and mapped to their respective rail lines in real-time, providing a critical component for the management of railway operations.
 
 ## Technical Details
-- **.NET Version**: The application is built using .NET 7.
+- **.NET Version**: The application is built using .NET 7.0
 - **Database**: Oracle Database. 
 - **ORM**: Direct SQL commands with parameters to prevent SQL injection.
 - **Libraries**: NetTopologySuite 2.5.0, Serilog 3.0.1. 
