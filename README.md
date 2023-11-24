@@ -13,8 +13,9 @@ The functionality of this service ensures that rail wagons are accurately tracke
 
 ## Technical Details
 - **.NET Version**: The application is built using .NET 7.0
-- **Database**: Oracle Database. 
-- **ORM**: Direct SQL commands with parameters to prevent SQL injection.
+- **Database**: Oracle Database.
+- **Data Access**: This service requires the ODP.NET Core driver provided by Oracle for database operations. The `Oracle.ManagedDataAccess.Core` library must be installed to facilitate the connection and interaction with Oracle databases, ensuring secure and efficient data manipulation.
+- **ORM**: Uses direct SQL commands with parameters to mitigate SQL injection risks. It is important to have the ODP.NET Core driver installed for the application to function correctly, as it is the backbone for executing database operations within a .NET Core environment.
 - **Libraries**: NetTopologySuite 2.5.0, Serilog 3.0.1. 
 
 ## Contributing
