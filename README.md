@@ -16,3 +16,7 @@ The functionality of this service ensures that rail wagons are accurately tracke
 - **Database**: Oracle Database. 
 - **ORM**: Direct SQL commands with parameters to prevent SQL injection.
 - **Libraries**: NetTopologySuite, Serilog. 
+
+## Contributing
+
+We welcome contributions and suggestions! Please fork the repository and create a new pull request for any features or bug fixes.
