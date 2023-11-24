@@ -15,7 +15,7 @@ The functionality of this service ensures that rail wagons are accurately tracke
 - **.NET Version**: The application is built using .NET 7.
 - **Database**: Oracle Database. 
 - **ORM**: Direct SQL commands with parameters to prevent SQL injection.
-- **Libraries**: NetTopologySuite, Serilog. 
+- **Libraries**: NetTopologySuite 2.5.0, Serilog 3.0.1. 
 
 ## Contributing
 
